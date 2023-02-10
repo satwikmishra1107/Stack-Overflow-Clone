@@ -22,7 +22,7 @@ const QuestionsDetails = () => {
   const Navigate = useNavigate();
   const dispatch = useDispatch();
   const location = useLocation();
-  const url = "http://localhost:3000"
+  const url = "https://stack-overflow-aryan.netlify.app"
   const handlePostAns = (e, answerLength) => {
     e.preventDefault();
     if (User === null) {
