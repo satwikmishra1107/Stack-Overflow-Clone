@@ -10,7 +10,7 @@ import reportWebVitals from "./reportWebVitals";
 import Kommunicate from "@kommunicate/kommunicate-chatbot-plugin";
 
 const store = configureStore({ reducer: Reducers, middleware: [thunk] });
-Kommunicate.init("b483602a953033194377a2245709e211")
+Kommunicate.init("3f63e4ed1a5129d7a3fcb6a4516bb6d60")
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
